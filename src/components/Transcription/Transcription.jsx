@@ -105,6 +105,7 @@ export class Transcription extends Component {
           name="transcription"
           value={this.state.transcription}
           onChange={this.handleChange}
+          placeholder="Write text"
         ></input>
         <p>{this.state.text}</p>
         <button onClick={this.handleTranscription}>Transcript</button>
